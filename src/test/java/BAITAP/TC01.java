@@ -37,7 +37,7 @@ public class TC01 {
 
 
             File srcFile = ((TakesScreenshot)driver).getScreenshotAs(OutputType.FILE);
-            String png = ("E:\\SWT\\selenium-webdriver-java\\src\\test\\java\\BAITAP\\imageTC1.pgn");
+            String png = ("E:\\SWT\\selenium-webdriver-java\\src\\test\\java\\BAITAP\\imageTC1.png");
             FileUtils.copyFile(srcFile, new File(png));
         } catch (Exception e) {
             e.printStackTrace();

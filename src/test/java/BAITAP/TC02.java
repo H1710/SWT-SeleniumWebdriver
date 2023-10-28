@@ -41,7 +41,7 @@ public class TC02 {
             }
             TakesScreenshot screenshot = ((TakesScreenshot) driver);
             File srcFile = screenshot.getScreenshotAs(OutputType.FILE);
-            FileHandler.copy(srcFile, new File("D:\\CN5\\SWT301\\selenium-webdriver-java-master\\selenium-webdriver-java-master\\src\\test\\java\\BaiTap\\textcase02.png"));
+            FileHandler.copy(srcFile, new File("E:\\SWT\\selenium-webdriver-java\\src\\test\\java\\BAITAP\\imageTC2.pgn"));
 
         } catch (Exception e) {
             e.printStackTrace();
